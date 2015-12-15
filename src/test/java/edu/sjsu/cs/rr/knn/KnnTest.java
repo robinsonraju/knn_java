@@ -32,7 +32,7 @@ public class KnnTest extends TestCase {
 	 * Test valid input data
 	 */
 	public void testValidInputData() {
-		String[] input = {"10", "100", "euclidean", "src/main/resources/iris-data.txt", "src/main/resources/output.txt"};
+		String[] input = {"10", "100", "euclidean", "src/main/resources/iris-data.txt", "src/main/resources/output1.txt"};
 		
 		try {
 			knn.validateInputData(input);
